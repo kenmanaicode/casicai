@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog educativo sobre el origen, evolución e importancia del software.">
+  <title>Bitácora Digital | El mundo del software</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="comments.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="brand">BITÁCORA <span>DIGITAL</span></div>
+    <nav aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#articulo">Artículo</a>
+      <a href="#comentarios">Comentarios</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="eyebrow">Tecnología · Educación · Innovación</div>
+    <h1>El mundo del software: de sus orígenes al futuro</h1>
+    <p>Un espacio para conocer cómo surgió el software, cómo ha evolucionado y qué oportunidades ofrecen las profesiones relacionadas con la tecnología.</p>
+    <a class="hero-button" href="#articulo">Leer artículo</a>
+  </section>
+
+  <main>
+    <article class="article" id="articulo">
+      <h2>¿Cómo nació el software y por qué es tan importante?</h2>
+      <p>El software es la parte lógica de un sistema informático. Está formado por programas, instrucciones y datos que indican a una computadora o dispositivo cómo realizar diferentes tareas. A diferencia del hardware, que corresponde a los componentes físicos, el software no se puede tocar, pero permite que los dispositivos funcionen.</p>
+
+      <h3>Los primeros antecedentes</h3>
+      <p>Una de las ideas que ayudó a sentar las bases de la programación fue la Máquina Analítica, diseñada por Charles Babbage durante el siglo XIX. Ada Lovelace estudió esta máquina y escribió una serie de instrucciones para realizar cálculos, por lo que es reconocida como una figura pionera de la programación.</p>
+      <p>Durante el siglo XX aparecieron las computadoras electrónicas. Con el paso del tiempo, los lenguajes de programación facilitaron la creación de instrucciones y programas cada vez más complejos.</p>
+
+      <h3>La evolución del software</h3>
+      <p>Al principio, los programas estaban relacionados principalmente con cálculos científicos y tareas especializadas. Después, el desarrollo de las computadoras personales y de internet permitió que el software llegara a hogares, centros educativos y empresas.</p>
+      <div class="highlight">Actualmente utilizamos software en teléfonos, plataformas educativas, videojuegos, hospitales, comercios, automóviles y muchos otros espacios de la vida diaria.</div>
+
+      <h3>Carreras relacionadas con el software</h3>
+      <p>El área tecnológica ofrece distintas profesiones. Algunas de ellas son:</p>
+      <ul>
+        <li><strong>Ingeniería de software:</strong> planifica y desarrolla sistemas informáticos.</li>
+        <li><strong>Programación:</strong> escribe y modifica instrucciones para crear programas.</li>
+        <li><strong>Desarrollo web:</strong> crea páginas y aplicaciones que funcionan en navegadores.</li>
+        <li><strong>Análisis de sistemas:</strong> estudia necesidades y propone soluciones tecnológicas.</li>
+        <li><strong>Ciberseguridad:</strong> ayuda a proteger sistemas, redes y datos.</li>
+        <li><strong>Pruebas de software:</strong> comprueba que los programas funcionen correctamente.</li>
+      </ul>
+
+      <h3>Habilidades para el futuro</h3>
+      <p>Para aprender sobre software son útiles el pensamiento lógico, la creatividad, la resolución de problemas, la comunicación y el trabajo en equipo. La tecnología cambia constantemente, por eso también es importante mantener la curiosidad y seguir aprendiendo.</p>
+
+      <h3>Conclusión</h3>
+      <p>El software ha pasado de ser una idea relacionada con las primeras máquinas programables a convertirse en una herramienta esencial para la sociedad. Conocer su historia y sus profesiones permite comprender cómo las personas utilizan la creatividad y el conocimiento para desarrollar soluciones que mejoran distintas actividades.</p>
+    </article>
+
+    <section class="comments-section" id="comentarios">
+      <h2>💬 Comparte tu opinión</h2>
+      <p class="comments-intro">¿Qué te pareció el artículo? Escribe tu comentario y participa en la conversación.</p>
+
+      <form id="commentForm">
+        <label for="commentName">Nombre</label>
+        <input type="text" id="commentName" maxlength="40" placeholder="Escribe tu nombre" required>
+
+        <label for="commentText">Comentario</label>
+        <textarea id="commentText" maxlength="1000" placeholder="Escribe tu comentario..." required></textarea>
+
+        <button class="primary-btn" type="submit">Publicar comentario</button>
+      </form>
+
+      <h3>Comentarios publicados</h3>
+      <div id="commentsList" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>Bitácora Digital · Blog educativo sobre el mundo del software</footer>
+</body>
+</html>

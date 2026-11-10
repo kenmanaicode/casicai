@@ -1,0 +1,22 @@
+BITÁCORA DIGITAL - BLOG SOBRE EL SOFTWARE
+
+ARCHIVOS
+- index.html: estructura y contenido del blog.
+- styles.css: diseño, colores y adaptación a pantallas pequeñas.
+- comments.js: publicación, visualización, almacenamiento y eliminación de comentarios.
+
+CÓMO ABRIR EL PROYECTO
+1. Extrae la carpeta blog_software_completo.zip.
+2. Abre la carpeta en Visual Studio Code.
+3. Abre index.html con Live Server (si tienes instalada esa extensión).
+   También puedes abrir index.html directamente en un navegador.
+
+CÓMO FUNCIONAN LOS COMENTARIOS
+- El visitante escribe su nombre y comentario.
+- Al pulsar "Publicar comentario", JavaScript valida los campos y agrega el comentario.
+- La fecha y hora se agregan automáticamente.
+- Los comentarios se guardan en localStorage del navegador.
+- El botón "Eliminar" permite borrar un comentario guardado en ese navegador.
+
+IMPORTANTE
+Esta versión no utiliza un servidor ni una base de datos compartida. Los comentarios solo aparecen en el mismo navegador y dispositivo donde se publicaron. Para que todos los visitantes de una página publicada en Netlify compartan los mismos comentarios, se necesita conectar un servicio de base de datos y configurar reglas de seguridad.
